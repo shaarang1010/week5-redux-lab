@@ -18,9 +18,6 @@ class Homepage extends React.Component {
     };
   }
 
-  componentDidMount() {
-    console.log(this.props);
-  }
   render() {
     const { awayTeamScore, homeTeamScore } = this.props.scores;
     return (
